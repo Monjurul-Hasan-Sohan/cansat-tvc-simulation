@@ -28,4 +28,4 @@ This project fulfills the requirements of the recruitment task to design and sim
 ## 🚀 Quick Start  
 1. **Clone Repository**  
 ```bash
-git clone https://github.com/yourusername/cansat-tvc-simulation.git
+git clone https://github.com/Monjurul-Hasan-Sohan/cansat-tvc-simulation.git
