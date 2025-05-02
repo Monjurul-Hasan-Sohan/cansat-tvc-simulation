@@ -13,12 +13,16 @@ A Python-based implementation of a PID controller for stabilizing a CanSat's ori
 
 [Click here to view the full PDF report](./report/report.pdf)
 
+
+
 ## Project Overview  
 This project fulfills the requirements of the recruitment task to design and simulate a PID-controlled TVC system for CanSat orientation stabilization. While the original task specified MATLAB Simulink, this implementation uses Python for:  
 - **System Dynamics Modeling**  
 - **PID Controller Design**  
 - **Disturbance Response Simulation**  
 - **Performance Analysis**  
+
+
 
 ## Task Compliance  
 | Original Requirement | Python Implementation |  
@@ -30,7 +34,9 @@ This project fulfills the requirements of the recruitment task to design and sim
 | Graphs & Report | Matplotlib Plots + LaTeX Report |  
 
 
-## 🚀 Installation
+
+
+## Installation
 
 ### Prerequisites
 - Python 3.9+
