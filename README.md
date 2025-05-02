@@ -9,14 +9,14 @@ A Python-based implementation of a PID controller for stabilizing a CanSat's ori
   <img src="report/figures/wind_disturbance.png" alt="Wind Disturbance" width="45%">
 </div>
 
-## 📋 Project Overview  
+## Project Overview  
 This project fulfills the requirements of the recruitment task to design and simulate a PID-controlled TVC system for CanSat orientation stabilization. While the original task specified MATLAB Simulink, this implementation uses Python for:  
 - **System Dynamics Modeling**  
 - **PID Controller Design**  
 - **Disturbance Response Simulation**  
 - **Performance Analysis**  
 
-## ✅ Task Compliance  
+## Task Compliance  
 | Original Requirement | Python Implementation |  
 |----------------------|-----------------------|  
 | Simulink Model | Modular OOP Code (`simulation.py`, `system_dynamics.py`) |  
@@ -25,7 +25,27 @@ This project fulfills the requirements of the recruitment task to design and sim
 | Step/Wind Response | Automated Test Scenarios |  
 | Graphs & Report | Matplotlib Plots + LaTeX Report |  
 
-## 🚀 Quick Start  
-1. **Clone Repository**  
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.9+
+- [Anaconda](https://www.anaconda.com/products/distribution)
+
+```bash
+### Create conda environment
+conda create -n cansat python=3.9
+conda activate cansat
+```
+```bash
+### Install dependencies
+pip install -r code/requirements.txt
+```
+### Clone Repository
 ```bash
 git clone https://github.com/Monjurul-Hasan-Sohan/cansat-tvc-simulation.git
+```
+```bash
+### Quick Start  
+python code/run_simulations.py
+```
